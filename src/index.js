@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+/* 
+ * template provided by Interviewer
+ * In new version of create react app 'render' is deprecated 
+ * but we can still use it, so it is working
+*/
+import React from "react";
+import ReactDOM from "react-dom";
+import TodoApp from "./components/TodoApp";
+import './App.css';
+ReactDOM.render(
+  <TodoApp />,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
