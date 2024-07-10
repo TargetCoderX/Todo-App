@@ -2,7 +2,6 @@
 # ToDo List
 
 - clone the git repo
-- open the folder in any text editor
 - open the folder in CMD
 - run **npm install**
 - after installing run **npm run dev**
